@@ -12,11 +12,10 @@ int factorial(int n)
     }
     return factorial(n - 1) * n;
 }
-
 int main()
 {
-    int n = 6;
-
+    int n;
+    cin>>n;
     cout << factorial(n);
     return 0;
 }
